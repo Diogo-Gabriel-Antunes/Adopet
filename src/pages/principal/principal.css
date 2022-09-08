@@ -1,0 +1,232 @@
+@media (max-width:360px) {
+  .principal {
+    background-color: #3772FF;
+    width: 100vw;
+    height: 917px;
+  }
+
+  .principal_ilustracao1 {
+    width: 67.03px;
+    height: 415px;
+    background-image: url(../../assets/header/celular/desenho2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 290.7px;
+    top: 199px;
+    right: -1rem;
+  }
+
+  .principal_ilustracao2 {
+    width: 261.21px;
+    height: 272.54px;
+    position: absolute;
+    left: 11.89%;
+    right: 24.66%;
+    top: 78.51%;
+    bottom: 10.51%;
+    background-image: url(../../assets/header/celular/cachorros.svg);
+
+  }
+
+  .principal_link {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .principal_logo {
+    position: absolute;
+    width: 186.67px;
+    height: 46px;
+    left: 87px;
+    top: 168px;
+  }
+
+  .principal_titulo {
+    position: absolute;
+    width: 157px;
+    height: 48px;
+    left: 102px;
+    top: 238px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .principal_texto {
+    position: absolute;
+    width: 248px;
+    height: 72px;
+    left: 56px;
+    top: 302px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .principal_divLink {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    left: 90px;
+    top: 398px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+
+  .principal_links {
+    background-color: #FC7071;
+    border-radius: 6px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin: 6px 0px;
+  }
+}
+
+@media (max-width:768px) and (min-width:361px) {
+  .principal_logo {
+    position: absolute;
+    width: 251.59px;
+    height: 62px;
+    left: 258px;
+    top: 273px;
+  }
+
+  .principal {
+    background-color: #3772FF;
+    width: 100vw;
+    height: 136vh;
+  }
+
+  .principal_titulo {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .principal_texto {
+    text-align: center;
+    height: 48px;
+    color: #ffffff;
+  }
+
+  .principal_divLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal_links {
+    width: 344px;
+    height: 48px;
+    background-color: #FC7071;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+  }
+
+  .principal_ilustracao1 {
+    background-image: url(../../assets/header/tablet/desenho2.svg);
+    position: absolute;
+    width: 134.45px;
+    height: 664px;
+    left: 634px;
+    top: 268px;
+  }
+
+  .principal_ilustracao2 {
+    background-image: url(../../assets/header/tablet/cachorro.svg);
+    position: absolute;
+    width: 338.28px;
+    height: 401px;
+    left: 195px;
+    top: 715px;
+
+  }
+}
+
+@media (max-width:1920px) and (min-width:769px) {
+  .principal {
+    background-color: #3772FF;
+    width: 100vw;
+    height: 119vh;
+  }
+
+  .principal_ilustracao2 {
+    background-image: url(../../assets/header/desktop/cachorro.svg);
+    position: absolute;
+    width: 346px;
+    height: 413.63px;
+    left: 552px;
+    top: 580px;
+
+  }
+
+  .principal_logo {
+    position: absolute;
+    width: 259.71px;
+    height: 64px;
+    left: 590px;
+    top: 130px;
+
+  }
+
+  .principal_titulo {
+    position: absolute;
+    width: 233px;
+    height: 48px;
+    left: 641px;
+    top: 234px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 48px;
+    /* identical to box height, or 171% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .principal_texto {
+    position: absolute;
+    width: 488px;
+    height: 52px;
+    left: 476px;
+    top: 306px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .principal_links {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 543px;
+    width: 362px;
+    align-items: center;
+    padding: 12px 111px;
+    border: none;
+    background: #FC7071;
+    border-radius: 6px;
+  }
+  .principal_link{
+    color: #Ffffff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,206 @@
+@media (max-width:360px) {
+  .mensagem_texto {
+    position: absolute;
+    width: 226px;
+    height: 60px;
+    left: 67px;
+    top: 168px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3772FF;
+  }
+
+  .mensagem_formulario {
+    position: absolute;
+    width: 312px;
+    height: 636px;
+    left: 24px;
+    top: 252px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mensagem_formulario label {
+    width: 139px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3772FF;
+    display: block;
+    margin-top: 16px;
+  }
+
+  .mensagem_formulario input,
+  textarea {
+    width: 280px;
+    height: 48px;
+    background-color: #ffffff;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+  }
+
+  .mensagem_formulario button {
+    width: 148px;
+    height: 40px;
+    background-color: #FC7071;
+    border-radius: 6px;
+    border: none;
+    margin: 30px 30px;
+  }
+}
+
+@media (min-width:361px) and (max-width:768px) {
+  .mensagem_texto {
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 122px;
+    top: 285px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Azul */
+
+    color: #3772FF;
+  }
+
+  .mensagem_formulario {
+    display: flex;
+    flex-direction: column;
+    width: 524px;
+    height: 527px;
+
+    background: #F7F7F7;
+    border-radius: 6px;
+    margin-left: 122px;
+    padding: 15px;
+  }
+
+  .mensagem_formulario label {
+    width: 130px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #3772FF;
+    text-align: center;
+    margin: 15px 0px;
+  }
+
+  .mensagem_formulario input,
+  textarea {
+    width: 492px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+  }
+
+  .mensagem_formulario button {
+    width: 164px;
+    height: 40px;
+    border: none;
+
+    /* Coral */
+
+    background: #FC7071;
+    border-radius: 6px;
+    color: #ffffff;
+    margin: 38px 180px;
+  }
+}
+
+@media (max-width:1920px)and (min-width:769px) {
+  .mensagem_texto {
+    position: absolute;
+    width: 492px;
+    height: 52px;
+    left: 720px;
+    top: 196px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #3772FF;
+
+  }
+
+  .mensagem_formulario {
+    display: flex;
+    flex-direction: column;
+    width: 552px;
+    margin-left: 637px;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    padding: 16px;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+
+  .mensagem_formulario label {
+    width: 499px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    margin: 16px 0px;
+    color: #3772FF;
+  }
+
+  .mensagem_formulario input,
+  textarea {
+    width: 492px;
+    height: 48px;
+    left: 474px;
+    top: 344px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+  }
+
+  .mensagem_formulario button {
+
+    width: 164px;
+    height: 40px;
+    left: 638px;
+    top: 836px;
+
+    /* Coral */
+
+    background: #FC7071;
+    border-radius: 6px;
+    border: none;
+    margin: 16px 161px;
+    color: #FFFFFF;
+  }
+}

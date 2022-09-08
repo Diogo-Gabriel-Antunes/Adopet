@@ -1,0 +1,377 @@
+@media (max-width:360px) {
+  .Usuario_texto {
+    position: absolute;
+    width: 247px;
+    height: 60px;
+    left: 56px;
+    top: 168px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3772FF;
+  }
+
+  .Usuario_infos {
+    position: absolute;
+    width: 312px;
+    height: 825px;
+    left: 24px;
+    top: 252px;
+
+    /* Cinza claro -fundos */
+
+    background: #F7F7F7;
+    border-radius: 10px;
+  }
+
+  .Usuario_infos h3 {
+    width: 312px;
+    height: 24px;
+    left: 153px;
+    top: 284px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+
+
+    color: #737380;
+    text-align: center;
+
+  }
+
+  .Usuario_label {
+    width: 49px;
+    height: 24px;
+
+
+    /* H4 */
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+
+    color: #3772FF;
+    margin-left: 16px;
+
+  }
+
+  .Usuario_infos input {
+    width: 280px;
+    height: 48px;
+    left: 40px;
+    top: 501px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    margin-left: 16px;
+
+  }
+
+  .Usuario_infos img {
+    margin: 0px 106px;
+  }
+
+  .Usuario_infos textarea {
+
+
+    width: 280px;
+    height: 176px;
+
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin-left: 16px;
+  }
+
+  .Usuario_icone {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 283px;
+    top: 40px;
+
+  }
+
+  .Usuario_file {
+    display: none;
+  }
+
+  .Usuario_fileLabel {
+    width: 168px;
+    height: 24px;
+    display: block;
+    margin: 0px 64px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+
+
+    text-align: center;
+
+    color: #FC7071;
+
+  }
+
+  .Usuario_infos button {
+    width: 148px;
+    height: 40px;
+    margin: 16px 79px;
+    background: #FC7071;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width:361px) and (max-width:768px) {
+  .Usuario_icone {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 659px;
+    top: 72px;
+  }
+
+  .Usuario_texto {
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 122px;
+    top: 285px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3772FF;
+  }
+
+  .Usuario_infos {
+    width: 524px;
+    height: 963px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin: 0px 122px;
+  }
+
+  .Usuario_infos h3 {
+    width: 510px;
+    height: 24px;
+    left: 357px;
+    top: 395px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    color: #737380;
+    text-align: center;
+  }
+
+  .Usuario_fileLabel {
+    margin: 16px 173px;
+    color: #3772FF;
+  }
+
+  .Usuario_label {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #3772FF;
+
+    width: 168px;
+    height: 24px;
+    font-weight: 400;
+    margin: 16px 16px;
+  }
+
+  .Usuario_infos input {
+    width: 492px;
+    height: 48px;
+    left: 138px;
+    top: 623px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    margin: 0px 16px;
+  }
+
+  .Usuario_file {
+    display: none;
+
+  }
+
+  .Usuario_infos textarea {
+    width: 492px;
+    height: 104px;
+    left: 138px;
+    top: 911px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin: 0px 16px;
+  }
+
+  .Usuario_infos img {
+    margin: 0px 222px;
+  }
+
+  .Usuario_infos button {
+    width: 164px;
+    height: 40px;
+    background: #FC7071;
+    border-radius: 6px;
+    border: none;
+    margin: 30px 173px;
+    color: #FFFFFF;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1920px) {
+  .Usuario_icone {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1620px;
+    top: 46px;
+  }
+
+  .Usuario_texto {
+    position: absolute;
+    width: 552px;
+    height: 52px;
+    left: 648px;
+    top: 196px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Azul */
+
+    color: #3772FF;
+  }
+
+  .Usuario_infos {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 656px;
+    background-color: #F7F7F7;
+    width: 552px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .Usuario_infos img {
+    width: 80px;
+    height: 80px;
+    margin: 0px 234px;
+  }
+
+  .Usuario_infos h3 {
+    width: 54px;
+    height: 24px;
+    left: 693px;
+    top: 312px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #737380;
+    margin: 0px 243px;
+  }
+
+  .Usuario_fileLabel {
+    padding: 0px 190px;
+  }
+
+  .Usuario_infos label {
+    width: 189px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #3772FF;
+    margin: 16px 0px;
+  }
+
+  .Usuario_infos input {
+
+    width: 492px;
+    height: 48px;
+    left: 474px;
+    top: 540px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+  }
+
+  .Usuario_file {
+    display: none;
+  }
+
+  .Usuario_infos button {
+    width: 164px;
+    height: 40px;
+    background: #FC7071;
+    border-radius: 6px;
+    border: none;
+    margin: 34px 159px;
+    color: #FFFFFF;
+  }
+
+}

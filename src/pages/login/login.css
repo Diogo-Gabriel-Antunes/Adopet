@@ -1,0 +1,71 @@
+@media (max-width:360px) {
+  .login_texto {
+    position: absolute;
+    width: 312px;
+    height: 21px;
+    left: 24px;
+    top: 247px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    text-align: center;
+    color: #3772FF;
+  }
+
+  .login_senha {
+    color: #FC7071;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width:361px) and (max-width:768px) {
+  .login_texto {
+    position: absolute;
+    width: 448px;
+    height: 21px;
+    left: 273px;
+    top: 352px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3772FF;
+  }
+
+  .login_senha {
+    color: #FC7071;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width:1920px) and (min-width:769px) {
+  .login_senha {
+    color: #FC7071;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .login_texto {
+    position: absolute;
+    width: 488px;
+    height: 21px;
+    left: 710px;
+    top: 258px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    color: #3772FF;
+
+  }
+}

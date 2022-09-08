@@ -1,0 +1,65 @@
+@media (max-width:360px) {
+  .header_casa {
+    margin: 50px;
+  }
+
+  .header_Logo {
+    display: none;
+  }
+
+  .header_mensagem {
+    margin: 50px 10px;
+  }
+
+  .header {
+    background-image: url(../../assets/header/celular/desenha.svg);
+    background-repeat: no-repeat;
+    height: 258px;
+  }
+}
+
+@media (max-width:768px) and (min-width:361px) {
+  .header {
+    background-image: url(../../assets/header/tablet/desenho.svg);
+    background-repeat: no-repeat;
+    width: 529.81px;
+    height: 434.85px;
+  }
+
+  .header_Logo {
+    width: 115px;
+    margin: 69px 50px;
+  }
+
+  .header_casa {
+    position: absolute;
+    top: 88px;
+
+  }
+  .header_mensagem{
+    position: absolute;
+    top: 90px;
+    left: 320px;
+  }
+}
+
+@media (max-width:1920px) and (min-width:769px){
+  .header {
+    background-image: url(../../assets/header/desktop/desenho.svg);
+    background-repeat: no-repeat;
+    width: 529.81px;
+    height: 434.85px;
+    
+  }
+  .header_Logo{
+    width: 122.14px;
+    height: 30.86px;
+    
+  }
+  .header_conteudo{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 59px;
+  }
+  
+}
